@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+* body
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body
+{
+    font-size: 20px;
+    background-color: gainsboro;
+}
+
+ul{
+    list-style: none;
+}
+main{
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: 33% 1fr;
+    grid-gap: 1rem;
+}
+
+.personal, .skills, .languages
+{
+    padding: 1rem;
+    line-height: 2;
+    
+    background-color: rgb(118, 146, 199);
+}
+
+.social
+{
+    padding:1rem ;
+    line-height: 2;
+}
+.left
+{
+    background-color:rgb(118,146,199);
+}
+
+
+.current
+{
+    background-color: green;
+    color: #fff;
+    padding: 0.4rem;
+    border-radius: 3px;
+}
+.left-image h1
+{
+    position: relative;
+    background-color: burlywood;
+    bottom: 0;
+    left: 0rem;
+    font-size: 50px;
+
+}
+.left-image{
+    background-color: cornflowerblue;
+}
+
+.right
+{
+    background-color: #fff;
+    padding: 1.5rem;
+}
+.education,.achievements,.certificates,.interests ul
+{
+    margin: 2rem 0;
+}
+
+.education,.achievements,.certificates,.interests
+{
+    
+    background-color:turquoise;
+    line-height: 2;
+}
+.education,.achievements,.certificates,.interests
+{
+    margin-top: 1rem;
+}  
+
+
+.title
+{
+    background-color: lightcoral;
+}
+
+i{
+    color: indigo;
+}
+.date
+{
+    color: green;
+}
